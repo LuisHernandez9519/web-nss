@@ -4,7 +4,7 @@
 
 @layer components {
     .nav_item {
-        @apply text-gray-500 font-medium py-5 text-lg hover:text-[#76ae01] focus:text-[#76ae01] active:text-[#74ac01] cursor-pointer
+        @apply text-gray-700 font-medium py-5 text-lg hover:text-[#76ae01] focus:text-[#76ae01] active:text-[#74ac01] cursor-pointer
     }
     .nav_icon {
         @apply fill-[#76ae01] w-6 h-6 shrink-0
@@ -14,6 +14,7 @@
     }
 
     .bg-hero-image{
+        /*height:  calc(100vh - theme('height.24'));*/
         height:  calc(100vh - theme('height.24'));
     }
 
